@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" class="transition duration-300">
+<head>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+  <meta charset="UTF-8">
+  <title>Sangeetha B - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    };
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    .typewriter::after {
+      content: "|";
+      animation: blink 1s infinite;
+    }
+
+    @keyframes grow {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+
+    .animate-grow {
+      animation: grow 1.5s ease-out;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-black dark:bg-gray-900 dark:text-white font-sans">
+  <!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+  <nav class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-xl font-bold text-blue-600">My Portfolio</h1>
+    <ul class="flex space-x-6 text-gray-800 font-medium">
+      <li><a href="#intro" class="hover:text-blue-600 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
+      <li><a href="#projects" class="hover:text-blue-600 transition">Projects</a></li>
+      <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Dark Mode Toggle Button -->
+  <button id="theme-toggle" class="fixed top-4 right-4 z-50 bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-4 py-2 rounded">
+    Toggle Mode
+  </button>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm <span class="text-blue-500">Sangeetha B</span></h1>
+    <h2 class="text-xl md:text-2xl mb-6">
+      <span class="typewriter" id="typewriter-text"></span>
+    </h2>
+    <a href="#projects" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-all">View My Work</a>
+  </section>
+  
+
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8 text-blue-400">About Me</h2>
+      <p class="text-lg text-center text-gray-600 dark:text-gray-300 mb-12">
+        I’m a passionate and self-motivated Full Stack Developer with 6 months of hands-on experience in building real-world applications. I specialize in Java, Python, Django, SQL, and modern frontend technologies like HTML, CSS, JavaScript, and Tailwind CSS.  
+  I enjoy turning complex problems into clean and efficient code. Currently building creative projects while continuously learning new technologies.
+      </p>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sangeethab4324@gmail.com&su=Resume%20Request&body=Hi%20Sangeetha,%0A%0AI%20would%20like%20to%20request%20your%20resume.%0A%0ARegards,"
+   target="_blank"
+   class="bg-blue-400 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-500 transition duration-300 inline-block">
+  📩 Request Resume
+</a>
+
+
+
+      <!-- Skills -->
+      <div class="space-y-6">
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Java</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-blue-500 h-4 rounded-full animate-grow" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Python</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-yellow-500 h-4 rounded-full animate-grow" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">HTML & CSS</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-green-500 h-4 rounded-full animate-grow" style="width: 80%"></div>
+          </div>
+        </div>
+
+        
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">JavaScript</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-orange-900 h-4 rounded-full animate-grow" style="width: 65%"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Django</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-orange-500 h-4 rounded-full animate-grow" style="width: 80%"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">SQL</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-red-500 h-4 rounded-full animate-grow" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Manual Testing</p>
+          <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4">
+            <div class="bg-purple-500 h-4 rounded-full animate-grow" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">My Projects</h2>
+
+      <div class="grid gap-8 md:grid-cols-2">
+        <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-xl font-semibold mb-2">Decoding Vitamin Deficiencies</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">A CNN-based image analysis system that detects vitamin deficiencies by analyzing the user's eye, tongue, and nail images.</p>
+          <a href="https://github.com/Sangeetha-b-14/Decoding-Vitamin-Deficiencies" class="text-blue-500 dark:text-blue-400 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-xl font-semibold mb-2">Python Code Compiler</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">Online IDE built using Django, where users can write and run Python code.</p>
+          <a href="https://github.com/Sangeetha-b-14/Python-Code-Compiler" class="text-blue-500 dark:text-blue-400 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">A fully responsive interactive personal portfolio with Tailwind CSS.</p>
+          <a href="https://github.com/Sangeetha-b-14/Portfolio-Website" class="text-blue-500 dark:text-blue-400 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <h3 class="text-xl font-semibold mb-2">Hand Detection Using OpenCV</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">A real-time gesture recognition system using OpenCV that detects left/right hands for interaction and tracking.</p>
+          <a href="https://github.com/Sangeetha-b-14/Hand-Detection-Using-OpenCV" class="text-blue-500 dark:text-blue-400 hover:underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typewriter Script -->
+  <script>
+    const roles = ["Full Stack Developer"];
+    let i = 0;
+    let j = 0;
+    let currentRole = "";
+    let isDeleting = false;
+
+    function typeWriter() {
+      const display = document.getElementById("typewriter-text");
+
+      if (i < roles.length) {
+        if (!isDeleting && j <= roles[i].length) {
+          currentRole = roles[i].substring(0, j++);
+        } else if (isDeleting && j >= 0) {
+          currentRole = roles[i].substring(0, j--);
+        }
+
+        display.innerHTML = currentRole;
+
+        if (j === roles[i].length) isDeleting = true;
+        if (j === 0 && isDeleting) {
+          isDeleting = false;
+          i = (i + 1) % roles.length;
+        }
+      }
+
+      setTimeout(typeWriter, isDeleting ? 80 : 150);
+    }
+
+    typeWriter();
+  </script>
+
+  <!-- ✅ Working Theme Toggle Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('theme-toggle');
+      const html = document.documentElement;
+
+      // Load saved theme
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        html.classList.add('dark');
+      } else {
+        html.classList.remove('dark');
+      }
+
+      // Toggle button click
+      toggleBtn.addEventListener('click', () => {
+        html.classList.toggle('dark');
+        const theme = html.classList.contains('dark') ? 'dark' : 'light';
+        localStorage.setItem('theme', theme);
+      });
+    });
+  </script>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 px-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+  <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+  <div class="text-center space-y-4">
+    <p>Email: <a href="mailto:sangeethab4324@gmail.com" class="text-blue-600 dark:text-blue-400 underline">sangeethab4324@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Sangeetha-b-14" target="_blank" class="text-blue-600 dark:text-blue-400 underline">github.com/Sangeetha-b-14</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sangeetha-b" target="_blank" class="text-blue-600 dark:text-blue-400 underline">linkedin.com/in/Sangeetha B</a></p>
+  </div>
+</section>
+
+</body>
+</html>
